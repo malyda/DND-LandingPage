@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f15e7adf-184c-46bc-b485-468139fdd49c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/favicon/android-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/android-icon-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/android-icon-36x36.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/android-icon-48x48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/android-icon-72x72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/android-icon-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/apple-icon-120x120.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/apple-icon-152x152.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/apple-icon-180x180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/apple-icon-60x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/apple-icon-76x76.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/apple-icon-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/apple-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/ms-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/ms-icon-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/ms-icon-310x310.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/ms-icon-70x70.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/logo/Dotnet-days.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/team/_wug_logo_square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/team/_xmdg_logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/error-404.html" beforeDir="false" afterPath="$PROJECT_DIR$/error-404.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,33 +57,35 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="286" />
-          <entry key="html" value="296" />
+          <entry key="html" value="310" />
           <entry key="js" value="18" />
-          <entry key="txt" value="121" />
+          <entry key="txt" value="162" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="286" />
-          <entry key="HTML" value="296" />
+          <entry key="HTML" value="310" />
           <entry key="JavaScript" value="18" />
-          <entry key="PLAIN_TEXT" value="121" />
+          <entry key="PLAIN_TEXT" value="162" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="4" />
-          <entry key="html" value="2" />
+          <entry key="html" value="3" />
           <entry key="js" value="13" />
-          <entry key="png" value="3" />
+          <entry key="png" value="5" />
+          <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="4" />
-          <entry key="HTML" value="2" />
-          <entry key="Image" value="3" />
+          <entry key="HTML" value="3" />
+          <entry key="Image" value="5" />
           <entry key="JavaScript" value="13" />
+          <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -123,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="738">
-              <caret line="115" column="77" selection-start-line="115" selection-start-column="77" selection-end-line="115" selection-end-column="77" />
+            <state relative-caret-position="476">
+              <caret line="28" column="47" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="28" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -139,8 +117,32 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/favicon/apple-icon-60x60.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_config.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/error-404.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/img/team/_wug_logo_square.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/img/team/_xmdg_logo.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -208,6 +210,7 @@
         <option value="$PROJECT_DIR$/assets/css/responsive.css" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/error-404.html" />
       </list>
     </option>
   </component>
@@ -418,7 +421,7 @@
       <option name="presentableId" value="Default" />
       <updated>1552203176798</updated>
       <workItem from="1552203178026" duration="12106000" />
-      <workItem from="1552565769192" duration="8169000" />
+      <workItem from="1552565769192" duration="8757000" />
     </task>
     <task id="LOCAL-00001" summary="- added logos and favicon&#10;- changed map size and details position&#10;- some color adjustments">
       <created>1552574106085</created>
@@ -427,11 +430,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552574106085</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="- added new files to git">
+      <created>1552574400975</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552574400975</updated>
+    </task>
+    <task id="LOCAL-00003" summary="- force rebuild">
+      <created>1552574713523</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552574713523</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20275000" />
+    <option name="totallyTimeSpent" value="20863000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -466,7 +483,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- added logos and favicon&#10;- changed map size and details position&#10;- some color adjustments" />
-    <option name="LAST_COMMIT_MESSAGE" value="- added logos and favicon&#10;- changed map size and details position&#10;- some color adjustments" />
+    <MESSAGE value="- added new files to git" />
+    <MESSAGE value="- force rebuild" />
+    <option name="LAST_COMMIT_MESSAGE" value="- force rebuild" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assets/css/vendor/owl.carousel.min.css">
@@ -582,13 +601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="115" column="77" selection-start-line="115" selection-start-column="77" selection-end-line="115" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="31977">
@@ -604,6 +616,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/favicon/apple-icon-60x60.png">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="47" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="28" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/team/_wug_logo_square.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/team/_xmdg_logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/error-404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
