@@ -68,7 +68,11 @@ a
 .vertical-center {
   vertical-align: middle;
 }
-
+.speakers img
+{
+  display: block;
+  margin: auto;
+}
 .f-logo img
 {
     max-width: 428px;
@@ -637,7 +641,7 @@ a {
   .header .navbar-header {
     margin-top: 18px; }
   .header .navbar-toggler-icon {
-    background-color: #01292f; }
+    background-color: #156a9f; }
   .header .navbar-toggler {
     margin-right: 15px;
     border: none;

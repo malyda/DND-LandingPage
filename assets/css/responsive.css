@@ -131,7 +131,7 @@
     padding-bottom: 30px;
   }
   .navbar-expand-lg {
-    background-color: #4125dd;
+    background-color: #156a9f;
     margin-top: 30px;
   }
   .f-logo img {
@@ -141,7 +141,6 @@
     margin-bottom: 40px;
   }
   .header .navbar-toggler-icon {
-    background-color: #cf057c;
     outline: none;
     padding-top: 5px;
     color: #fff;
@@ -353,7 +352,7 @@
   }
   .conference-synopsis-area .bg-left,
   .conference-synopsis-area .bg-left-2 {
-    background-image: url();
+   /*  background-image: url(""); */
   }
   .conference-synopsis-area .offset-6 {
     margin-left: 0;
@@ -430,7 +429,7 @@
     margin-top: 24%;
   }
   .generel-information-area .bg-left {
-    background-image: url();
+    /*background-image: url(" ");*/
   }
   .generel-information-area .offset-6 {
     margin-left: 0;
