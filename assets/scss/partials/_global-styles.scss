@@ -6,21 +6,21 @@
 
 body {
     font-family: $body-font-family;
-    color: $secondary-color;
+    color: $grey;
     font-size: 15px;
     line-height: 25px;
     -webkit-backface-visibility: hidden;
 }
 
 ::-moz-selection {
-    background: #4125dd;
+    background: $brand-primary;
     color: #fff;
     text-shadow: none;
     outline: none;
 }
 
 ::selection {
-    background: #4125dd;
+    background: $brand-primary;
     color: #fff;
     text-shadow: none;
     outline: none;
@@ -53,7 +53,6 @@ ul {
             padding: 0px 45px;
             border-radius: 28px;
             display: inline-block;
-            text-transform: capitalize;
             border-color: $brand-primary;
             background-color: $brand-primary;
             transition: $transition;
@@ -91,7 +90,7 @@ ul {
             font-size: 45px;
             line-height: 45px;
             font-weight: 600;
-            text-transform: capitalize;
+            
             position: relative;
             display: inline-block;
             &:before {
@@ -538,20 +537,22 @@ a {
 }
 
 .hero-bg {
-    background-image: url(../img/slide/1.jpg);
-}
+    background-image: url(../img/slide/1.jpg); }
 
 .hero-bg-2 {
-    background-image: url(../img/slide/2.jpg);
-}
+    background-image: url(../img/slide/2.jpg); }
 
 .hero-bg-3 {
-    background-image: url(../img/slide/3.jpg);
-}
+    background-image: url(../img/slide/3.jpg); }
 
 .hero-bg-4 {
-    background-image: url(../img/slide/4.jpg);
-}
+    background-image: url(../img/slide/mainBG.png); }
+
+.hero-bg-top {
+    background-image: url(../img/slide/mainBG.png); }
+
+.hero-bg-bottom {
+    background: #007fc7; }
 
 .bg-3 {
     background-image: url(../img/bg/1.png);

@@ -12,9 +12,6 @@
     .navbar-header {
         margin-top: 18px;
     }
-    .navbar-toggler-icon {
-        background-color: #01292f;
-    }
     .navbar-toggler {
         margin-right: 15px;
         border: none;
@@ -25,6 +22,10 @@
     }
     .brand-logo {
         margin-top: 18px;
+        img
+        {
+            height: 59px;
+        }
     }
     &.white-color {
         .navbar-nav {
@@ -47,7 +48,7 @@
             .nav-link {
                 color: $white;
                 &:hover {
-                    color: #cf057c;
+                    color: $secondary-hover-color;
                 }
             }
         }
@@ -66,7 +67,7 @@
         li {
             &.active {
                 > a {
-                    color: #cf057c;
+                    color: $secondary-color;
                     &:before {
                         position: absolute;
                         left: -9px;
@@ -74,7 +75,7 @@
                         content: "";
                         height: 2px;
                         width: 20px;
-                        background: $secondary-hover-color;
+                        background: $secondary-color;
                     }
                 }
             }
@@ -93,7 +94,7 @@
         }
         .dropdown-menu {
             width: 200px;
-            background: #cf057c;
+            background: $secondary-color;
             padding: 10px 15px;
             border-radius: 0;
             top: 0;

@@ -1,7 +1,7 @@
-$brand-primary: #4125dd;
-$secondary-color:#656565;
-$hover-color:#7307be;
-$secondary-hover-color:#cf057c;
+$brand-primary: #007fc7;
+$secondary-color:#ffd500;
+$hover-color:#00649E;
+$secondary-hover-color:#fbbb00;
 $text-color: #252525;
 $title-color: #252525;
 $headings-color: #252525;
@@ -10,6 +10,7 @@ $alter-text-color: #c2c2c2;
 $border-color: #dee2e6;
 
 $white: #fff;
+$grey: #656565;
 $light-grey: #707070;
 $black: #000;
 $transition: all 0.4s;
@@ -40,3 +41,36 @@ $dropdown-active-bg: $brand-primary;
 
 $navbar-toggle-bg: $brand-primary;
 $navbar-toggle-line-color: $black;
+
+
+.vertical-center {
+  vertical-align: middle;
+}
+.speakers img
+{
+  display: block;
+  margin: auto;
+}
+.f-logo img
+{
+  max-width: 428px;
+}
+
+.btn-mail {
+  text-decoration: none;
+  bottom: 26px;
+  position: fixed;
+  background-size: cover;
+  right: 50px;
+  z-index: 1000;
+  border: none;
+  outline: none;
+  width: 60px;
+}
+
+.hero-banner-area
+{
+  .container{
+    max-width: 1440px;
+  }
+}

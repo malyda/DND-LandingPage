@@ -13,14 +13,14 @@
             font-size: 64px;
             color: $white;
             line-height: 64px;
-            text-transform: capitalize;
+            font-weight: bold;
+            
         }
         h2 {
             font-size: 64px;
             line-height: 1.8em;
-            font-weight: 600;
             color: $white;
-            text-transform: capitalize;
+            font-weight: normal;
         }
         p {
             color: $white;
@@ -137,7 +137,7 @@
                 line-height: 25px;
                 font-weight: 600;
                 margin-bottom: 20px;
-                text-transform: capitalize;
+                
             }
             input {
                 margin-bottom: 20px;
@@ -163,7 +163,7 @@
                     display: inline-block;
                     font-size: 15px;
                     border-radius: 28px;
-                    text-transform: capitalize;
+                    
                     cursor: pointer;
                     transition: $transition;
                     &:hover {
@@ -207,7 +207,7 @@
             color: $title-color;
             font-size: 25px;
             line-height: 25px;
-            text-transform: capitalize;
+            
             font-weight: 500;
             margin: 30px 0 10px;
 
@@ -273,7 +273,7 @@
                     td {
                         .heading {
                             font-size: 16px;
-                            text-transform: capitalize;
+                            
                             margin-bottom: 16px;
                             font-weight: 500;
                             color: $title-color;
@@ -327,7 +327,7 @@
                     font-size: 25px;
                     line-height: 25px;
                     font-weight: 600;
-                    text-transform: capitalize;
+                    
                     padding: 35px 0;
                     position: relative;
                     &:hover {
@@ -595,7 +595,7 @@
                 line-height: 20px;
                 margin-bottom: 5px;
                 transition: $transition;
-                text-transform: capitalize;
+                
                 &:hover {
                     color: $brand-primary;
                 }
@@ -603,7 +603,7 @@
             p {
                 font-size: 15px;
                 margin-bottom: 0;
-                color: $secondary-color;
+                color: $grey;
             }
         }
     }
@@ -651,7 +651,7 @@
                 color: $white;
                 font-size: 20px;
                 font-weight: 600;
-                text-transform: capitalize;
+                
                 transition: $transition;
                 &:hover {
                     color: #cf057c;
@@ -741,7 +741,7 @@
                 }
                 .month {
                     font-size: 20px;
-                    text-transform: capitalize;
+                    
                 }
             }
         }
@@ -751,7 +751,7 @@
             line-height: 25px;
             font-weight: 600;
             margin: 30px 0;
-            text-transform: capitalize;
+            
         }
         .pricing-content {
             ul {
@@ -1024,7 +1024,7 @@
                 line-height: 25px;
                 font-weight: 600;
                 margin-bottom: 30px;
-                text-transform: capitalize;
+                
             }
             p {
                 margin-bottom: 0;
@@ -1297,9 +1297,9 @@
         .inner-content {
             display: flex;
             .f-icon {
-                i.fa {
+                i.fas {
                     font-size: 30px;
-                    color: $brand-primary;
+                    color: $white;
                     margin-right: 15px;
                 }
             }
@@ -1311,6 +1311,13 @@
         p {
             margin: 25px 0 25px;
             color: $white;
+        }
+        a{
+            color: $secondary-color;
+            &:hover
+            {
+                color: $secondary-hover-color;
+            }
         }
         .sub-btn {
             position: relative;
@@ -1353,13 +1360,8 @@
                 li {
                     margin-right: 25px;
                     a {
-                        i.fa {
+                        i.fas {
                             color: $white;
-                            font-size: 20px;
-                            transition: $transition;
-                            &:hover {
-                                color: #cf057c;
-                            }
                         }
                     }
                 }
@@ -1378,7 +1380,7 @@
         }
         em {
             i.fa {
-                color: $brand-primary;
+                color: $secondary-color;
             }
         }
         a {
@@ -1386,7 +1388,7 @@
             font-weight: 500;
             transition: $transition;
             &:hover {
-                color: #cf057c;
+                color: $secondary-hover-color;
             }
         }
     }
@@ -1424,7 +1426,7 @@
                 line-height: 33px;
                 font-weight: 600;
                 margin-bottom: 0;
-                text-transform: capitalize;
+                
             }
         }
     }
@@ -1464,7 +1466,7 @@
             font-size: 30px;
             line-height: 30px;
             font-weight: 600;
-            text-transform: capitalize;
+            
         }
         p {
             margin: 20px 0 0;
@@ -1573,7 +1575,7 @@
                 font-size: 40px;
                 line-height: 40px;
                 font-weight: 600;
-                text-transform: capitalize;
+                
             }
         }
         .breadcrumb {
@@ -1665,7 +1667,7 @@
             font-size: 40px;
             line-height: 40px;
             font-weight: 500;
-            text-transform: capitalize;
+            
             margin: 20px 0 10px;
         }
         p {
@@ -1712,7 +1714,7 @@
             line-height: 35px;
             font-weight: 600;
             margin-top: 40px;
-            text-transform: capitalize;
+            
         }
         span {
             color: $secondary-color;
@@ -1993,7 +1995,7 @@
             font-weight: 600;
             display: flex;
             justify-content: space-between;
-            text-transform: capitalize;
+            
         }
         .add-cart {
             width: 100%;
@@ -2003,7 +2005,7 @@
             a {
                 color: $secondary-color;
                 font-size: 15px;
-                text-transform: capitalize;
+                
             }
         }
     }
