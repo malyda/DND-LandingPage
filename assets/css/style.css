@@ -67,10 +67,6 @@ Author Email: ithemeslab@gmail.com */
   width: 60px;
 }
 
-.hero-banner-area .container {
-  max-width: 1440px;
-}
-
 /*google fonts*/
 /* 1.1  global & override */
 body {
@@ -704,6 +700,7 @@ a:focus {
   position: absolute;
   right: 0;
   top: -78px;
+  color: white;
 }
 .header .brand-logo {
   margin-top: 18px;
