@@ -1,11 +1,24 @@
 @import 'partials/variable';
 /* 05 responsive styles */
 
+@media (max-width: 1200px) {
+  .f-content:before
+  {
+    display: none;
+  }
+}
+
+
+
 //large display
 @media screen and (min-width: 769px) {}
 
 //small display
 @media screen and (max-width: 991px) and (min-width: 768px) {
+  .f-logo
+  {
+    margin: auto;
+  }
     .pad100,
     .padtb {
         padding: 40px 0;
@@ -77,7 +90,26 @@
 
 //extra small display
 @media screen and (max-width: 768px) {
-    .pad-top120 {
+  .whos-speaking-area .speakers {
+        img {
+          max-width: 76%;
+        }
+        .spk-info {
+            padding-top: 0;
+        }
+    }
+
+  .section-title .title-text
+  {
+    h2 {
+      text-decoration: underline $brand-primary;
+      &:before{
+        display: none;
+      }
+     
+    }
+  }
+  .pad-top120 {
         padding-top: 30px;
     }
     .pad100,
@@ -182,7 +214,6 @@
     }
     .header {
         .navbar-toggler-icon {
-            background-color: #cf057c;
             outline: none;
             padding-top: 5px;
             color: $white;
