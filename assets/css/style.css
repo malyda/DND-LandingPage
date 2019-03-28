@@ -81,6 +81,13 @@ body {
   -webkit-backface-visibility: hidden;
 }
 
+.conference-code-of-conduct h3 {
+  padding: 20px 0;
+}
+.conference-code-of-conduct p {
+  padding-bottom: 10px;
+}
+
 .header .container {
   min-width: 300px;
 }
