@@ -14,6 +14,7 @@
 @media screen and (min-width: 769px) {}
 
 //small display
+
 @media screen and (max-width: 991px) and (min-width: 768px) {
   .f-logo
   {
@@ -86,9 +87,26 @@
             }
         }
     }
+
+  .whos-speaking-area .speakers .spk-info i {
+    font-size: 17px;
+  }
 }
 
 //extra small display
+@media screen and (max-width: 768px) and (orientation: landscape) {
+  .hero-banner-area {
+    min-height: 100vh;
+    .banner-content {
+      margin-top: 10vh;
+      min-height: 100vh;
+    }
+  }
+  .header .brand-logo img {
+    height: 60px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   body{
     font-size: 13px;

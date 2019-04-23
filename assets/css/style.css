@@ -1364,6 +1364,12 @@ a:focus {
   margin-bottom: 0;
   color: #656565;
 }
+.whos-speaking-area .speakers .spk-info i {
+  font-size: 20px;
+}
+.whos-speaking-area .speakers .spk-info ul .list-inline-item:not(:last-child) {
+  margin-right: 1rem;
+}
 
 .whos-speaking-area-two .title-text h2 {
   color: #fff;
@@ -2596,6 +2602,23 @@ a:focus {
   .pricing-tables-area.event-schedule .pricing-header .pricing-value h3 {
     font-size: 18px;
     line-height: 18px;
+  }
+
+  .whos-speaking-area .speakers .spk-info i {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 768px) and (orientation: landscape) {
+  .hero-banner-area {
+    min-height: 100vh;
+  }
+  .hero-banner-area .banner-content {
+    margin-top: 10vh;
+    min-height: 100vh;
+  }
+
+  .header .brand-logo img {
+    height: 60px;
   }
 }
 @media screen and (max-width: 768px) {

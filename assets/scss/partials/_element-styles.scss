@@ -605,6 +605,13 @@
                 margin-bottom: 0;
                 color: $grey;
             }
+            i{
+                font-size: 20px;
+            }
+            ul .list-inline-item:not(:last-child)
+            {
+                margin-right: 1rem;
+            }
         }
     }
 }
