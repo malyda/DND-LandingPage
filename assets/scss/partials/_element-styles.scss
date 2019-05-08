@@ -840,6 +840,30 @@
     }
 }
 
+/* added content */
+.owl-stage {
+    display: flex;
+    flex-grow: 1;
+
+    .owl-item .col-lg-12 {
+        height: 100%;
+        display: flex;
+        flex-flow: column;
+        flex-grow: 1;
+        justify-content: space-around;
+        img{
+            padding-top: 100px;
+        }
+    }
+}
+/* end of added content */
+.owl-wrapper-outer {
+    border: 1px solid red;
+    font: 0/0 a;
+    line-height: 0;
+}
+
+
 .our-sponsers-area-tow {
     .owl-carousel {
         .owl-item {
@@ -858,7 +882,7 @@
         .owl-nav {
             div {
                 position: absolute;
-                top: 28%;
+                top: 55%;
                 left: -4%;
                 transform: translateY(-50%);
                 height: 40px;

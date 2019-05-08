@@ -1553,6 +1553,29 @@ a:focus {
 .our-sponsers-area .single-sponsers ul li {
   margin-right: 100px;
 }
+/* added content */
+.owl-stage {
+  display: flex;
+  flex-grow: 1;
+}
+.owl-stage .owl-item .col-lg-12 {
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  flex-grow: 1;
+  justify-content: space-around;
+}
+.owl-stage .owl-item .col-lg-12 img {
+  padding-top: 100px;
+}
+
+/* end of added content */
+.owl-wrapper-outer {
+  border: 1px solid red;
+  font: 0/0 a;
+  line-height: 0;
+}
+
 .our-sponsers-area-tow .title-text p {
   margin: 20px 0 0;
 }
@@ -1561,7 +1584,7 @@ a:focus {
 }
 .our-sponsers-area-tow .sponsers-active .owl-nav div {
   position: absolute;
-  top: 28%;
+  top: 55%;
   left: -4%;
   transform: translateY(-50%);
   height: 40px;

@@ -65,9 +65,9 @@
             sponsers  Activation
         ------------------------------ */
         $(".sponsers-active").owlCarousel({
-            items: 1,
+            items: 4,
             margin: 100,
-            loop: true,
+            loop: false,
             dots: false,
             nav: true,
             slideSpeed: 2000,
@@ -82,15 +82,15 @@
                 },
 
                 768: {
-                    items: 3
+                    items: 2
                 },
 
                 800: {
-                    items: 3
+                    items: 2
                 },
 
                 1024: {
-                    items: 4
+                    items: 2
                 }
             }
         });
