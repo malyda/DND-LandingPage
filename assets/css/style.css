@@ -1568,8 +1568,14 @@ a:focus {
 .owl-stage .owl-item .col-lg-12 img {
   padding-top: 100px;
 }
-.owl-stage .owl-item .col-lg-12 .img-certicon {
-  padding-top: 80px;
+.owl-stage .owl-item .col-lg-12 .img-microsoft {
+  padding-top: 60px;
+}
+.owl-stage .owl-item .col-lg-12 .img-oksystem {
+  padding-top: 85px;
+}
+.owl-stage .owl-item .col-lg-12 .img-postsharp {
+  padding-top: 70px;
 }
 .owl-stage .owl-item .col-lg-12 .img-chip {
   max-width: 80%;
