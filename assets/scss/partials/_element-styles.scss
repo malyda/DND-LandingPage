@@ -854,6 +854,14 @@
         img{
             padding-top: 100px;
         }
+        .img-certicon{
+            padding-top: 80px;
+        }
+        .img-chip{
+            max-width: 80%;
+            padding-top: 40px;
+            padding-left: 10px;
+        }
     }
 }
 /* end of added content */
@@ -865,11 +873,6 @@
 
 
 .our-sponsers-area-tow {
-    .owl-carousel {
-        .owl-item {
-            img {}
-        }
-    }
     .title-text {
         p {
             margin: 20px 0 0;

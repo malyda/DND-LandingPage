@@ -1568,6 +1568,14 @@ a:focus {
 .owl-stage .owl-item .col-lg-12 img {
   padding-top: 100px;
 }
+.owl-stage .owl-item .col-lg-12 .img-certicon {
+  padding-top: 80px;
+}
+.owl-stage .owl-item .col-lg-12 .img-chip {
+  max-width: 80%;
+  padding-top: 40px;
+  padding-left: 10px;
+}
 
 /* end of added content */
 .owl-wrapper-outer {
